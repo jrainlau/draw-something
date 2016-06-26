@@ -246,7 +246,7 @@ ready: () => {
 选择ES6真的能够极大地提升工作效率，`Class`语法的出现简直不能更赞，作为才学习`jQuery`源码没多久的我来说，ES6真的非常小清新。
 欢迎持续关注我的专栏，会不断送出干货哦，尽请期待！
 
-  [1]: https://segmentfault.com/img/bVyv5J
+  [1]: https://github.com/jrainlau/draw-something/blob/master/demoaa1.gif?raw=true
   [2]: https://segmentfault.com/img/bVyv9d
   [3]: https://github.com/websockets/ws
   [4]: https://github.com/websockets/ws
