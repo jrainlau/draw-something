@@ -20,6 +20,7 @@ npm run dev  // 运行客户端程序
 
 首先分析整体架构部分：
 ![图片描述][2]
+
 可以看到，整体架构非常简单，仅仅是一台服务器和两个客户端。
 - WebSocket服务器：提供数据同步，内容分发功能，采用nodejs写成。
 - 绘图画布：进行绘图的区域，同时能够获取关键词，其绘制的内容会同步到猜图画布中。
@@ -246,7 +247,7 @@ ready: () => {
 选择ES6真的能够极大地提升工作效率，`Class`语法的出现简直不能更赞，作为才学习`jQuery`源码没多久的我来说，ES6真的非常小清新。
 欢迎持续关注我的专栏，会不断送出干货哦，尽请期待！
 
-  [1]: https://segmentfault.com/img/bVyv5J
+  [1]: https://github.com/jrainlau/draw-something/blob/master/demoaa1.gif?raw=true
   [2]: https://segmentfault.com/img/bVyv9d
   [3]: https://github.com/websockets/ws
   [4]: https://github.com/websockets/ws
