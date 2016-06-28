@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/jrainlau/draw-something.git"
   },
-  "keywords": [,
+  "keywords": [
     "webpack",
     "es6",
     "vue",
