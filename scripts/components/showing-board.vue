@@ -10,7 +10,7 @@
 <script>
     'use strict'
     export default {
-        ready: () => {
+        ready() {
             const ws = new WebSocket('ws://localhost:8090');
             const canvas = document.getElementById('showing')
             const cxt = canvas.getContext('2d')

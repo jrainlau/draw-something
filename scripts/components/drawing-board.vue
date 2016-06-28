@@ -77,7 +77,7 @@ class Draw {
 }
 
 export default {
-    ready: () => {
+    ready() {
         const ws = new WebSocket('ws://localhost:8090')
         let draw = new Draw('canvas')
         let btn = document.getElementById('btn')

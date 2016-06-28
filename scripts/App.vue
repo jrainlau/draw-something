@@ -13,7 +13,7 @@ import DrawingBoard from './components/drawing-board.vue'
 import showingBoard from './components/showing-board.vue'
 
 export default {
-    data: () => {
+    data() {
       return {
         player: 0
       }
