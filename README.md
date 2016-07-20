@@ -3,7 +3,6 @@
 
 ```
 git clone git@github.com:jrainlau/draw-something.git
-cd draw-something && npm install
 
 node ws-server.js // 开启websocket服务器
 

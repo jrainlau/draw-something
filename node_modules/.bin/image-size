@@ -1,0 +1,15 @@
+#!/bin/sh
+basedir=`dirname "$0"`
+
+case `uname` in
+    *CYGWIN*) basedir=`cygpath -w "$basedir"`;;
+esac
+
+if [ -x "$basedir/node" ]; then
+  "$basedir/node"  "$basedir/../image-size/bin/image-size.js" "$@"
+  ret=$?
+else 
+  node  "$basedir/../image-size/bin/image-size.js" "$@"
+  ret=$?
+fi
+exit $ret
