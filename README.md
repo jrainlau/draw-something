@@ -4,6 +4,8 @@
 ```
 git clone git@github.com:jrainlau/draw-something.git
 
+npm install
+
 node ws-server.js // 开启websocket服务器
 
 npm run dev  // 运行客户端程序
